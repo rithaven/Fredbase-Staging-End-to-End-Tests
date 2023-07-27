@@ -10,8 +10,6 @@ describe('Login Test', () => {
         cy.get('input[name="user[password]"]').should('be.visible');
         cy.get('input[type="checkbox"]').should('be.visible')
         cy.get('input[type="submit"]').should('be.visible');
-        
-       
       });
     });
 

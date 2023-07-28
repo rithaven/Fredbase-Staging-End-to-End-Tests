@@ -16,7 +16,6 @@ describe('Login Page', () => {
     cy.get('input[placeholder="Password"]').invoke('val', userPassword);
 
     cy.get('input[type="checkbox"]').check();
-
     cy.wait(500);
     cy.get('input[type="submit"]').click();
   });
